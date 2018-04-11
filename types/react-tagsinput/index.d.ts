@@ -50,6 +50,7 @@ declare namespace TagsInput {
         currentValue?: string;
         inputValue?: string;
         onlyUnique?: boolean;
+        validate?: (tag: string) => boolean;
         validationRegex?: RegExp;
         onValidationReject?: (tags: string[]) => void;
         disabled?: boolean;
