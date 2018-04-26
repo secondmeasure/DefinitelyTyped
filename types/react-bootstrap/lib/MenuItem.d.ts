@@ -5,6 +5,7 @@ declare namespace MenuItem {
     export interface MenuItemProps extends React.HTMLProps<MenuItem> {
         active?: boolean;
         bsClass?: string;
+        componentClass?: React.ReactType;
         disabled?: boolean;
         divider?: boolean;
         eventKey?: any;
